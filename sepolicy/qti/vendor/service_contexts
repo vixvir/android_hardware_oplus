@@ -46,6 +46,9 @@ vendor.oplus.hardware.radio.IRadioStable/OplusRadio1                 u:object_r:
 # Sensor
 android.frameworks.sensorservice.ISensorManager/default     u:object_r:fwk_sensor_service:s0
 
+# Sensors
+vendor.oplus.hardware.oplusSensor.ISensorFeature/default    u:object_r:hal_oplus_sensor_aidl_service:s0
+
 # Touch
 vendor.oplus.hardware.touch.IOplusTouch/default    u:object_r:hal_oplus_touch_aidl_service:s0
 
