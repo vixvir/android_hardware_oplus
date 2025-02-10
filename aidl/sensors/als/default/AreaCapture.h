@@ -7,7 +7,7 @@
 #pragma once
 
 #include <aidl/vendor/lineage/oplus_als/BnAreaCapture.h>
-#include <android/gui/ARect.h>
+#include <ui/Rect.h>
 
 namespace aidl {
 namespace vendor {
@@ -22,7 +22,7 @@ class AreaCapture : public BnAreaCapture {
   private:
     static ::android::sp<::android::IBinder> getInternalDisplayToken();
 
-    ::android::gui::ARect m_screenshot_rect;
+    ::android::Rect m_screenshot_rect;
 };
 
 }  // namespace oplus_als
