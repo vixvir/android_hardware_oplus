@@ -28,7 +28,7 @@ unix_socket_send(hal_oplus_touch_aidl, oplus_touchdaemon, hal_oplus_touchdaemon)
 rw_dir_file(hal_oplus_touchdaemon, proc_bus_input)
 rw_dir_file(hal_oplus_touchdaemon, vendor_data_file)
 rw_dir_file(hal_oplus_touchdaemon, vendor_proc_display)
-rw_dir_file(hal_oplus_touchdaemon, vendor_proc_oplus_touch)
+rw_dir_file(hal_oplus_touchdaemon, proc_horae)
 
 set_prop(hal_oplus_touchdaemon, system_oplus_touch_prop)
 set_prop(hal_oplus_touchdaemon, vendor_oplus_touch_prop)

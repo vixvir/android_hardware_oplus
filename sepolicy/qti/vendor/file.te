@@ -61,7 +61,6 @@ type sysfs_torch, sysfs_type, fs_type;
 # Touch
 type oplus_touchdaemon_socket, file_type;
 type vendor_persist_oplus_touch_file, file_type, data_file_type;
-type vendor_proc_oplus_touch, fs_type, proc_type;
 
 # Ultrasound
 type vendor_proc_ultrasound, fs_type, proc_type;
