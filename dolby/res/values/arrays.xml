@@ -8,9 +8,11 @@
     <!-- Dolby Atmos -->
     <string-array name="dolby_profile_entries">
         <item>@string/dolby_profile_dynamic</item>
-        <item>@string/dolby_profile_movie</item>
+        <item>@string/dolby_profile_video</item>
         <item>@string/dolby_profile_music</item>
-        <item>@string/dolby_profile_custom</item>
+        <item>@string/dolby_profile_game1</item>
+        <item>@string/dolby_profile_game2</item>
+        <item>@string/dolby_profile_voice</item>
     </string-array>
 
     <string-array name="dolby_profile_values">
@@ -18,6 +20,8 @@
         <item>1</item>
         <item>2</item>
         <item>3</item>
+        <item>4</item>
+        <item>5</item>
     </string-array>
 
     <string-array name="dolby_preset_entries" translatable="false">
@@ -87,9 +91,9 @@
 
     <string-array name="dolby_ieq_entries">
         <item>@string/dolby_off</item>
+        <item>@string/dolby_detailed</item>
         <item>@string/dolby_balanced</item>
         <item>@string/dolby_warm</item>
-        <item>@string/dolby_detailed</item>
     </string-array>
 
     <string-array name="dolby_ieq_values">
