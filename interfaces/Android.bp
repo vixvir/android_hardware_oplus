@@ -72,6 +72,10 @@ aidl_interface {
             version: "8",
             imports: [],
         },
+        {
+            version: "9",
+            imports: [],
+        },
     ],
 }
 
