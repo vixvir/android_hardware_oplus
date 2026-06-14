@@ -17,6 +17,7 @@ oplus_lineage_touch_hal_cc_defaults {
 
 cc_binary {
     name: "vendor.lineage.touch@1.0-service.oplus",
+    enabled : false,    
     defaults: [
         "hidl_defaults",
         "oplus_lineage_touch_hal_defaults",
