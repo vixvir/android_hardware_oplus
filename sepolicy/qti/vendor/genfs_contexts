@@ -58,11 +58,11 @@ genfscon sysfs /module/kprofiles/parameters/auto_kp u:object_r:sysfs_kprofiles:s
 genfscon sysfs /kernel/kprofiles/kp_mode u:object_r:sysfs_kprofiles:s0
 
 # Libperfmgr
-genfscon proc /sys/walt/sched_busy_hyst_ns                        u:object_r:proc_libperfmgr_adds:s0
-genfscon proc /sys/walt/sched_busy_hysteresis_enable_cpus         u:object_r:proc_libperfmgr_adds:s0
-genfscon proc /sys/walt/sched_min_task_util_for_boost             u:object_r:proc_libperfmgr_adds:s0
-genfscon proc /sys/walt/sched_min_task_util_for_colocation        u:object_r:proc_libperfmgr_adds:s0
-genfscon proc /sys/walt/sched_min_task_util_for_uclamp            u:object_r:proc_libperfmgr_adds:s0
+#genfscon proc /sys/walt/sched_busy_hyst_ns                        u:object_r:proc_libperfmgr_adds:s0
+#genfscon proc /sys/walt/sched_busy_hysteresis_enable_cpus         u:object_r:proc_libperfmgr_adds:s0
+#genfscon proc /sys/walt/sched_min_task_util_for_boost             u:object_r:proc_libperfmgr_adds:s0
+#genfscon proc /sys/walt/sched_min_task_util_for_colocation        u:object_r:proc_libperfmgr_adds:s0
+#genfscon proc /sys/walt/sched_min_task_util_for_uclamp            u:object_r:proc_libperfmgr_adds:s0
 
 # Performance
 genfscon proc /oplus_scheduler                       u:object_r:vendor_proc_oplus_scheduler:s0
@@ -137,8 +137,8 @@ genfscon sysfs /devices/platform/soc/a94000.i2c/i2c-2/2-0038/wakeup u:object_r:s
 genfscon sysfs /devices/platform/soc/a94000.i2c/i2c-9/9-0048/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/a94000.i2c/i2c-9/9-004b/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/a94000.spi/spi_master/spi1/spi1.0/wakeup u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/soc/aab0000.qcom,venus/subsys10/wakeup u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/soc/aab0000.qcom,venus/subsys9/wakeup u:object_r:sysfs_wakeup:s0
+#genfscon sysfs /devices/platform/soc/aab0000.qcom,venus/subsys10/wakeup u:object_r:sysfs_wakeup:s0
+#genfscon sysfs /devices/platform/soc/aab0000.qcom,venus/subsys9/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/abb0000.qcom,cvpss/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/ac0000.qcom,qupv3_1_geni_se/a8c000.i2c/i2c-9/9-000e/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/ac0000.qcom,qupv3_1_geni_se/a8c000.i2c/i2c-10/10-000e/wakeup u:object_r:sysfs_wakeup:s0
@@ -154,8 +154,8 @@ genfscon sysfs /devices/platform/soc/ac0000.qcom,qupv3_1_geni_se/a90000.i2c/i2c-
 genfscon sysfs /devices/platform/soc/ac0000.qcom,qupv3_1_geni_se/a90000.spi/spi_master/spi0/spi0.0/synaptics_tcm_hbp.0/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/ac0000.qcom,qupv3_1_geni_se/a90000.spi/spi_master/spi1/spi1.0/synaptics_tcm_hbp.0/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/b0000000.qcom,cnss-qca6390/wakeup u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/soc/b0000000.qcom,cnss-qca6490/subsys10/wakeup u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/soc/b0000000.qcom,cnss-qca6490/subsys9/wakeup u:object_r:sysfs_wakeup:s0
+#genfscon sysfs /devices/platform/soc/b0000000.qcom,cnss-qca6490/subsys10/wakeup u:object_r:sysfs_wakeup:s0
+#genfscon sysfs /devices/platform/soc/b0000000.qcom,cnss-qca6490/subsys9/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/c42d000.qcom,spmi/spmi-0/0-00/c42d000.qcom,spmi:qcom,pmk8350@0:pon_pbs@800/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/c42d000.qcom,spmi/spmi-0/0-00/c42d000.qcom,spmi:qcom,pmk8550@0:pon_pbs@800/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/c42d000.qcom,spmi/spmi-0/0-00/c42d000.qcom,spmi:qcom,pmk8550@0:rtc@6100/rtc/rtc0/alarmtimer.2.auto/wakeup/wakeup2 u:object_r:sysfs_wakeup:s0
@@ -163,7 +163,7 @@ genfscon sysfs /devices/platform/soc/32300000.remoteproc-cdsp/wakeup/wakeup22 u:
 genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pm7250b@2:qcom,qpnp-smb5/power_supply/ac/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pm8150b@2:qcom,qpnp-smb5/power_supply/ac/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-02/c440000.qcom,spmi:qcom,pm8150b@2:qcom,usb-pdphy@1700/usbpd/usbpd0/otg_default/wakeup u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-03/c440000.qcom,spmi:qcom,pm8350b@3:qcom,amoled/wakeup u:object_r:sysfs_wakeup:s0
+#genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-03/c440000.qcom,spmi:qcom,pm8350b@3:qcom,amoled/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-04/c440000.qcom,spmi:qcom,pm8150l@4:qcom,power-on@800/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/c440000.qcom,spmi/spmi-0/spmi0-08/c440000.qcom,spmi:qcom,pmxprairie@8:qcom,power-on@800/wakeup u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/c80000.i2c/i2c-5/5-0020/wakeup u:object_r:sysfs_wakeup:s0
